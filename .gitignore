@@ -1,0 +1,50 @@
+# Node.js
+node_modules/
+dist/
+build/
+.npm
+.eslintcache
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.env
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+*.tfvars
+*.tfvars.json
+
+# Docker
+.docker/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Network Cost artifacts
+flow_logs/
+billing_exports/
+analysis_results/
+optimization_recommendations/
+forecast_checkpoints/
+topology_graphs/
+nat_gw_metrics/
+egress_reports/
+peering_stats/
+cdn_usage_data/
